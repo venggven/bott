@@ -1,0 +1,18 @@
+[project]
+name = "elena-energy-bot"
+version = "1.0.0"
+description = "Telegram quiz funnel for Elena Sayapina"
+requires-python = ">=3.11"
+dependencies = [
+  "aiogram>=3.13,<4",
+  "aiosqlite>=0.20,<1",
+  "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

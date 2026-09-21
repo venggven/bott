@@ -1,0 +1,2 @@
+"""Elena energy quiz bot."""
+
